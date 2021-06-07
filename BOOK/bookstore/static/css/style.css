@@ -1,0 +1,180 @@
+    body{
+        background-color: #FFFFFF;
+    }
+
+    .container_page{
+
+    }
+
+    a{
+    text-decoration:none;
+    color: black;
+    }
+        a:hover{
+    text-decoration:underline;
+    color:black;
+    }
+
+    .navbar-brand{
+
+        font-size: 30px;
+        font-weight: 800;
+        color:#50746C;
+    }
+
+    .navbar navbar-expand-lg navbar-light {
+
+        height: 140px;
+        font-weight: 600;
+        color: white ;
+        text-transform: uppercase;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        color: black;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: white;
+    }
+
+
+    nav .nav-item{
+        margin-left:20px;
+        transition: .3s;
+    }
+
+    .dropdown-item:hover{
+    color: white;
+    background-color: #E7B34D;
+    }
+
+
+    nav .nav-item:hover{
+        background-color: #E7B34D;
+    }
+
+    .dropdown-item{
+        font-weight: 600;
+    }
+
+     .main{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+     }
+
+    .content_box{
+       width:30%;
+    }
+
+    .card{
+    margin-top:40px;
+    width: 18rem;
+    }
+
+
+    .card{
+        transition: 1s;
+    }
+
+    .card:hover{
+        transform: scale(1.2);
+    }
+
+    .card-text{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+
+
+    .login-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: #50746C;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+
+    .my-account{
+    display: flex;
+    height:630px;
+    width:100%;
+    background: #50746C;
+    }
+
+    .orders{
+    width:30%;
+    color: white;
+    }
+
+
+
+    .account-box{
+    width:30%;
+    position: absolute;
+    left: 40px;
+    margin-top:30px;
+    }
+
+
+    .fields {
+    margin-bottom: 20px;
+    }
+
+    .enter {
+    color:white;
+    }
+
+    .enter-form{
+       margin: 0 auto;
+      padding: 1.5rem 2rem;
+    }
+
+
+    #id_password:focus{
+    outline: none;
+    border:none;
+    }
+
+    #id_password1:focus{
+    outline: none;
+    border:none;
+    }
+
+    #id_password2:focus{
+    outline: none;
+    border:none;
+    }
+
+    #id_username:focus{
+    outline: none;
+    border:none;
+    }
+
+    .button {
+      border:0;
+      outline:none;
+      padding:10px 0;
+      font-size:15px;
+      font-weight: 600;
+      background-color: #E7B34D;
+      color: white;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+      border-radius: 20px;
+    }
+
+    .button-block {
+      display:block;
+      width:100%;
+    }
+
+
+
+
